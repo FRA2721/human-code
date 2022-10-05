@@ -1,0 +1,130 @@
+4.	Preparare le lasagne alla bolognese
+	L’ingrediente segreto
+
+	Chissà perché, per quanto ci provi e segua alla lettera la ricetta, non vengono mai come quelle di nonna! Ho studiato alla perfezione tutti gli ingredienti, le 	quantità, i tempi e modalità di cottura, ma alla fine le lasagne della nonna sono sempre di un altro livello!
+
+
+
+init-mySolution
+--------------------------------------------------------------------------------------------------
+
+data:
+
+	Ingredienti per la pasta sfoglia:
+
+		- Semola di grano duro rimacinata;
+		- Spinaci;
+		- Tuorli;
+		- Farina 00;
+		- Uovo;
+
+
+
+	Ingredienti per il ragù:
+
+		- Carne bovina;
+		- Carote;
+		- Cipolle dorate;
+		- Passata di pomodoro;
+		- Olio extravergine di oliva;
+		- Pepe nero;
+		- Pancetta;
+		- Sedano;
+		- Vino rosso;
+		- Brodo vegetale;
+		- Sale fino;
+
+
+
+	Ingredienti per la besciamella:
+
+		- Buro;
+		- Latte intero;
+		- Noce moscata;
+		- Farina 00;
+		- Sale fino;
+
+
+
+	Ingredienti per condire:
+
+		- Burro;
+		- Parmigiano Reggiano DOP;
+
+
+algoritmo:
+--------------------------------------------------------------------------------------------------
+
+init preparazione ragù:
+
+1. Prendi padella e prepara il brodo vegetale;
+
+2. Prendere la pancetta;
+
+3. Prendere il coltello;
+
+4. Taliare la pancetta con il coltello;
+
+5. Tagliare carote, cipolle e sedano;
+
+6. Mettere tutto in padella e cuocere:
+	Se pronto, allora passare allo step successivo;
+	Altrimenti, ritornare allo step 6;
+
+7. Aggiungere vino e cuocere per 5-6 minuti tutto insieme:
+	Se pronto, allora passae allo step 8;
+	Altrimenti, ritornare allo step 7;
+
+8. Fare cuocere il ragù per 2 ore:
+	Se pronto, allora passare allo step successivo;
+	Altrimenti, ritornare allo step 8;
+
+--------------------------------------------------------------------------------------------------
+
+init preparazione besciamella:
+
+1. Prendere il burro;
+
+2. Predendere il latte;
+
+3. Mescolare il burro ed il latte;
+
+4. Far cuocere tutto in una padella:
+	Se pronto, allore passare allo step successivo;
+	Altrimenti, ritornare allo step 4;
+
+--------------------------------------------------------------------------------------------------
+
+init preparazione pasta:
+
+1. Prendere gli spinaci;
+
+2. versare gli spinaci inun tegame;
+
+3. Fare cuocere per 5-6 minuti:
+	Se pronto, allorare passa allo step 4;
+	Altrimenti, ritornare allo step 3;
+
+4. Prendere le uova;
+
+5. Creare un impasto con le uova e gli spinaci;
+
+6. Prendere la pellicola;
+
+7. Avvolgere l' impasto nell apellicola;
+
+8. Lasciare riposare l'impasto:
+	Se pronto, allorae passa allo step 9;
+	Altrimenti, ritornare allo step 8;
+	
+
+9. Stendere l'impasto;
+
+10. Far cuocere l'impasto per 30-40 minuti:
+	Se pronto, allore passare allo step 11;
+	Altrimenti, ritornare allo step 10;
+
+11. Mettere insieme pasta, ragù e besciamella;
+--------------------------------------------------------------------------------------------------
+end-mySolution
+
